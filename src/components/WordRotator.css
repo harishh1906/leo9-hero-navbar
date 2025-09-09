@@ -1,0 +1,13 @@
+.rotator {
+  display: inline-block;
+  margin-left: 0.5rem;
+  color: #dc0bfd;
+  font-weight: bold;
+  animation: fadeIn 0.8s ease;
+  min-width: 10ch;
+  text-align: left;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
